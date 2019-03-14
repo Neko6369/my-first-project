@@ -1,0 +1,60 @@
+#progress {
+			border-radius: 5px;
+			width: 0%;
+			padding: auto;
+			margin: auto;
+			height: auto;
+			vertical-align: middle;
+		}
+
+		.button {
+			/* background-color: #4CAF50; */
+			border: none;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 8px;
+			vertical-align: middle;
+		}
+
+		.button:hover {
+			opacity: 2
+		}
+
+		h3 {
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+
+		.mtop {
+			margin-top: 20px;
+		}
+
+		blockquote {
+			border-left: 0px #eee;
+			padding: 20px 50px;
+		}
+
+		blockquote a {
+			cursor: pointer;
+			padding: 0 3px;
+			color: white;
+		}
+
+		blockquote a:hover {
+
+			text-decoration: none;
+		}
+
+		.btvileft {
+			padding-left: 0px;
+		}
+
+		.btviright {
+			margin-left: 113px;
+		}
