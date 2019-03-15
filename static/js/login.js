@@ -16,3 +16,13 @@ function loadText()
         title.innerHTML="DỰ ĐOÁN CHỮ SỐ TRONG HÌNH";
         output_file.innerHTML="Kết quả";
 	}
+function js_upoad()
+{
+	$.ajax({
+        url: "/upload",
+        type: "POST",
+        success: function (resp) {
+            output_file.innerHTML= resp;
+        }
+    })
+}
